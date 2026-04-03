@@ -1,0 +1,208 @@
+{
+  "header": {
+    "title": "El nombre de tu empresa",
+    "subtitle": "Tu eslogan",
+    "image": "./images/products/logocafe.png"
+  },
+  "cards": {
+    "title1": "Cafe & bebidas calientes",
+    "image1": "./images/products/Cafe_y_bebidas.png",
+    "card1": [
+      {
+        "title": "Americano",
+        "product1": "",
+        "product2": "",
+        "price": "5.000"
+      },
+      {
+        "title": "Capuchino",
+        "product1": "",
+        "product2": "",
+        "price": "7.000"
+      },
+      {
+        "title": "Cafe moca",
+        "ingredient1": "Cafe con notas achocolatas",        
+        "price": "8.500"
+      },
+      {
+        "title": "Beso de angel late",
+        "ingredient1": "Expreso con crema de whisky y leche",        
+        "price": "10.000"
+      },
+      {
+        "title": "Cafe Irlandés",
+        "ingredient1": "Whisky, crema chantilly y expresso",
+        "price": "10.000"
+      },
+      {
+        "title": "Infusion",
+        "product1": "Jengibre: con tomate de árbol , naranja y hojas de stevia.",
+        "product2": "Frutos rojos: mora , fresa , flor de jamaica, arándanos y hojas de stevia.",
+        "price": "8.500"
+      }
+    ],
+    
+    "title2": "Bebidas frías",
+    "image2": "./images/products/Bebidas_frias.png",
+    "card2": [
+      {
+        "title": "Iced latte",
+        "ingredient1": "Shot de espresso, hielo y leche",        
+        "price": "10.000"
+      },
+      {
+        "title": "Affogato",
+        "ingredient1": "Combinación perfecta entre un cremoso helado y un espresso",
+        "price": "12.000"
+      },
+      {
+        "title": "Orange Coffee",
+        "ingredient1": "Jugo de naranja, más hielo y shot de espresso",
+        "price": "10.000"
+      },
+      {
+        "title": "Limonada de café",
+        "product1": "Espresso doble con hielo y limón",
+        "product2": "También lo puedes pedir con licor de tequila",
+        "price": "18.000"
+      },
+      {
+        "title": "Té matcha",
+        "ingredient1": "Con leche de coco",
+        "price": "10.000"
+      },
+      {
+        "title": "Sodas saborizadas",
+        "ingredient1": "Maracuyá, lychee, sandía, fresa",
+        "price": "18.000"
+      },
+      {
+        "title": "Milo frío",        
+        "price": "9.000"
+      },
+      {
+        "title": "¿Y si me dejas qué?",
+        "ingredient1": "Espresso, limón y ron",        
+        "price": "16.000"
+      }
+    ],
+    "title3": "Tardeo",
+    "image3": "./images/products/Tardeo1.png",
+    "card3": [
+      {
+        "title": "Bocaditos de la casa",
+        "ingredient1": "3 Empanadas crujientes y sabrosas",
+        "ingredient2": "2 Aborrajados deliciosos",
+        "ingredient3": "1 Marranita crujiente",
+        "ingredient4": "1 Pastel de yuca fresco y sabroso",        
+        "price": "18.000"
+      }     
+    ],
+    "title4": "",
+    "image4": "./images/products/Tardeo2.png",
+    "card4": [
+      {
+        "title": "Pan de waffle",
+        "ingredient1": "4 Unidades, con queso y arequipe",           
+        "price": "15.000"
+      }     
+    ],
+    "title5": "",
+    "image5": "./images/products/Tardeo3.png",
+    "card5": [
+      {
+        "title": "Migao",
+        "ingredient1": "1 Pandewaffle, 1 Buñuelo, 1 Tostada, 2 Palitos de queso,Ducales, Saltín, Queso y Chocolate.",           
+        "price": "16.000"
+      }     
+    ],
+    "title6": "Postres y tortas",
+    "image6": "./images/products/Torta1.png",
+    "card6": [
+      {
+        "title": "Torta de chocolate",
+        "ingredient1": "Endulzada con Stevia sin amargo, cubierta de crema de chocolate y chips de chocolate al 70%.",           
+        "price": "13.000"
+      },     
+      {
+        "title": "Torta Alemana",
+        "ingredient1": "Torta de vainilla, con relleno de yogur griego y arequipe, cubierta de crema de yogur griego y almendras.",           
+        "price": "13.000"
+      },    
+      {
+        "title": "Torta de zanahoria",
+        "ingredient1": "Artesanal con nueces, baja en azúcar.",           
+        "price": "13.000"
+      }     
+    ],
+    "title7": "Postres y tortas",
+    "image7": "./images/products/Torta2.png",
+    "card7": [
+      {
+        "title": "Cheesecake de frutos rojos",
+        "ingredient1": "Cheesecake tradicional con frutos rojos: mora, fresas y agraz.",           
+        "price": "15.000"
+      },     
+      {
+        "title": "Alfajores",
+        "ingredient1": "Rellenos de arequipe, sin azúcar y endulzados con Stevia sin amargo.",           
+        "price": "7.000"
+      }       
+    ],
+    "title8": "",
+    "image8": "./images/products/Torta3.png",
+    "card8": [
+      {
+        "title": "Galletas rellenas",
+        "ingredient1": "Sin azúcar endulzadas con Stevia sin amargo. Pregunta por nuestros sabores.",           
+        "price": "7.000"
+      },     
+      {
+        "title": "Croissant almendrado",                   
+        "price": "11.500"
+      },
+      {
+        "title": "Rollos de canela",                   
+        "price": "7.000"
+      },
+      {
+        "title": "Brownies",                   
+        "price": "7.000"
+      },
+      {
+        "title": "Pregunta por nuestro postre de la semana",                   
+        "price": "13.000"
+      }              
+    ],
+    "title9": "Hamburguesa",
+    "image9": "./images/products/Hamburguesa.png",
+    "card9": [
+      {
+        "title": "Caserita",
+        "ingredient1": "Deliciosa y artesanal, 130 g de carne de res Pan brioche fresco, queso cheddar derretido, tomate y lechuga frescos, tocineta crujiente, miel para un toque dulce, Croquetas de yuca crujientes, Salsa de la casa para un sabor único.*Disponible desde las 4:00 p.m.",           
+        "price": "25.000"
+      }
+    ],
+    "title10": "Cócteles & Vinos",
+    "image10": "./images/products/Cocteles1.png",
+    "card10": [
+      {
+        "title": "Coctel Corazón de Martina",
+        "ingredient1": "Cóctel artesanal.Sabores disponibles:",           
+        "ingredient2": "maracuyá, lulo y sandía.",
+        "price": "13.000"
+      }
+    ],
+    "title11": "",
+    "image11": "./images/products/Cocteles2.png",
+    "card11": [
+      {
+        "title": "Copa de vino artesanal",
+        "ingredient1": "Corazón de Martina.",           
+        "ingredient2": "Pregunta por las opciones disponibles.",
+        "price": "10.000"
+      }
+    ]               
+  }
+}
