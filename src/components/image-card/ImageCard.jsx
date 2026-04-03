@@ -34,7 +34,9 @@ const ImageCard = ({ dataKey, titleKey, image, alt }) => {
               {product.product3 && <p>⏺︎ {product.product3}</p>}
               {product.product4 && <p>⏺︎ {product.product4}</p>}
               {product.ingredient1 && <p>{product.ingredient1}</p>} 
-              {product.ingredient2 && <p>{product.ingredient2}</p>}             
+              {product.ingredient2 && <p>{product.ingredient2}</p>}   
+              {product.ingredient3 && <p>{product.ingredient3}</p>} 
+              {product.ingredient4 && <p>{product.ingredient4}</p>}         
             </React.Fragment>
           ))}
         </div>
