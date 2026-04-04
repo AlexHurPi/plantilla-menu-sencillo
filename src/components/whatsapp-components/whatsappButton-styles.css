@@ -20,7 +20,8 @@
 }
 
 @media (max-width: 425px) {
-    .whatsapp-container {        
+    .whatsapp-container {
+        bottom: 350px;        
         right: 2px;
     }    
 }
