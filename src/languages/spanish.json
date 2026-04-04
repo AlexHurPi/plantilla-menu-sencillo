@@ -4,6 +4,26 @@
     "subtitle": "Tu eslogan",
     "image": "./images/products/logocafe.png"
   },
+  "footer": {
+    "infofooter": [
+      {
+          "empresa": "El nombre de tu empresa.",
+          "slogan": "Tu eslogan.",
+          "razonsocial": "Razón social: El nombre de tu empresa S.A.S.",
+          "nit": "NIT: 123456789-0",
+          "dondeestamos": "¿Dónde estamos?",
+          "ubicacion": "Ciudad, Departamento,País.",
+          "direccion": "Dirección: Calle Falsa 123, Ciudad, País.",
+          "correo": "usuario@empresa.com",
+          "telefono": "Teléfono: +57 123 456 7890",
+          "redessociales": "Síguenos en nuestras redes sociales:",
+          "facebook": "enlace a Facebook",
+          "twitter": "enlace a Twitter",
+          "instagram": "enlace a Instagram",
+          "final": "© 2026 EMPRESA S.A.S. Todos los derechos reservados."
+      }
+  ]
+  },
   "cards": {
     "title1": "Cafe & bebidas calientes",
     "image1": "./images/products/Cafe_y_bebidas.png",

@@ -1,388 +1,227 @@
 {
-  "carousel": {   
-      "title1": "Rice Pudding",
-      "arrozconleche": [       
+  "header": {
+    "title": "Your company name",
+    "subtitle": "Your slogan",
+    "image": "./images/products/logocafe.png"
+  },
+  "footer": {
+    "infofooter": [
       {
-        "id": 1,
-        "image": "images/postres/arroz-con-leche.png",
-        "title": "MOM'S RECIPE",
-        "description": "Cheese, dulce de leche, jelly with red berry or pineapple chunks, condensed milk, and cookie.",
-        "price": "$11.000",
-        "price2": "$12.000"
-      },
-      {
-        "id": 2,
-        "image": "images/postres/arroz-con-leche.png",
-        "title": "TRADITIONAL",
-        "description": "Dehydrated coconut, raisins, cinnamon, cheese, condensed milk, dulce de leche, and cookie.",
-        "price": "$12.500",
-        "price2": "$13.500"
-      },
-       {
-        "id": 3,
-        "image": "images/postres/arroz-con-leche.png",
-        "title": "PACIFIC",
-        "description": "Caramelized coconut or dulce cortado jelly, cheese, condensed milk, dulce de leche, and cookie.",
-        "price": "$12.000",
-        "price2": "$13.000"
-      },
-      {
-        "id": 4,
-        "image": "images/postres/arroz-con-leche.png",
-        "title": "CHEESE/DULCE DE LECHE",
-        "description": "Cheese, condensed milk, dulce de leche, and cookie.",
-        "price": "$12.500",
-        "price2": "$13.500"
-      },
-      {
-        "id": 5,
-        "image": "images/postres/arroz-con-leche.png",
-        "title": "COFFEE FLAVOR",
-        "description": "Coffee-flavored rice pudding, dulce de leche, coffee delight, condensed milk, cheese, and cookie.",
-        "price": "$12.500",
-        "price2": "$13.500"
-      },
-      {
-        "id": 6,
-        "image": "images/postres/arroz-con-leche.png",
-        "title": "ICE CREAM/CHEESE",
-        "description": "Ice cream of your choice, cheese, dulce de leche, and condensed milk.",
-        "price": "$14.000",
-        "price2": "$15.000"
+        "empresa": "Your company name.",
+        "slogan": "Your slogan.",
+        "razonsocial": "Legal name: Your company name S.A.S.",
+        "nit": "NIT: 123456789-0",
+        "dondeestamos": "Where are we?",
+        "ubicacion": "City, Department, Country.",
+        "direccion": "Address: Fake Street 123, City, Country.",
+        "correo": "user@company.com",
+        "telefono": "Phone: +57 123 456 7890",
+        "redessociales": "Follow us on our social media:",
+        "facebook": "Facebook link",
+        "twitter": "Twitter link",
+        "instagram": "Instagram link",
+        "final": "© 2026 COMPANY S.A.S. All rights reserved."
       }
-    ],    
-      "title2": "Obleas (Wafers)",
-      "obleas": [
-  {
-    "id": 1,
-    "image": "images/postres/oblea.png",
-    "title": "SPONTANEOUS",
-    "description": "Dulce de leche, whipped cream.",
-    "price": "$8.500",
-    "price2": "$9.500"
+    ]
   },
-  {
-    "id": 2,
-    "image": "images/postres/oblea.png",
-    "title": "EVOLUTION",
-    "description": "Dulce de leche, whipped cream, jelly with red berry chunks, and cheese.",
-    "price": "$11.000",
-    "price2": "$12.000"
-  },
-  {
-    "id": 3,
-    "image": "images/postres/oblea.png",
-    "title": "STRAWBERRY/BANANA",
-    "description": "Strawberry, banana, whipped cream, dulce de leche, and condensed milk.",
-    "price": "$11.000",
-    "price2": "$12.000"
-  },
-  {
-    "id": 4,
-    "image": "images/postres/oblea.png",
-    "title": "PEANUT WITH RAISINS",
-    "description": "Cheese, raisins, crushed peanuts, dulce de leche, and whipped cream.",
-    "price": "$11.500",
-    "price2": "$12.500"
-  },
-  {
-    "id": 5,
-    "image": "images/postres/oblea.png",
-    "title": "CHEESE/DULCE DE LECHE",
-    "description": "Abundant dulce de leche with cheese and condensed milk.",
-    "price": "$10.500",
-    "price2": "$11.500"
-  },
-  {
-    "id": 6,
-    "image": "images/postres/oblea.png",
-    "title": "PEANUT WITH COCONUT",
-    "description": "Crushed peanuts, caramelized coconut, dulce de leche, and whipped cream.",
-    "price": "$10.500",
-    "price2": "$11.500"
-  },
-  {
-    "id": 7,
-    "image": "images/postres/oblea.png",
-    "title": "NUTELLA",
-    "description": "Hazelnut spread, whipped cream, chocolate sauce, chocolate chips, and cheese.",
-    "price": "$12.500",
-    "price2": "$13.500"
-  }
-],
-      "title3": "Merengones",
-      "merengones": [
-  {
-    "id": 1,
-    "image": "images/postres/merengon.png",
-    "title": "CONQUEROR",
-    "description": "Meringue, peach, soursop, strawberry, mango, jelly with red berry chunks, whipped cream, condensed milk, chocolate sauce, and chocolate chips.",
-    "price": "$14.000",
-    "price2": "$15.200"
-  },
-  {
-    "id": 2,
-    "image": "images/postres/merengon.png",
-    "title": "HUNTER",
-    "description": "Meringue, ice cream, cheese, peach, soursop, strawberry, mango, jelly with red berry chunks, whipped cream, condensed milk, chocolate sauce, and chocolate chips.",
-    "price": "$18.000",
-    "price2": "$19.200"
-  }
-],
-    "title4": "Strawberries and Fruits with Cream",
-    "fresasconcrema": [
-  {
-    "id": 1,
-    "image": "images/postres/fresas-con-crema.png",
-    "title": "STRAWBERRY",
-    "description": "Strawberries, homemade jelly with strawberry chunks, house cream, dulce de leche, condensed milk, and whipped cream.",
-    "price": "$12.500",
-    "price2": "$13.500"
-  },
-  {
-    "id": 2,
-    "image": "images/postres/fresas-con-crema.png",
-    "title": "PASSION MANGO",
-    "description": "Passion fruit, mango, house cream, dulce de leche, condensed milk, and whipped cream.",
-    "price": "$12.500",
-    "price2": "$13.500"
-  },
-  {
-    "id": 3,
-    "image": "images/postres/fresas-con-crema.png",
-    "title": "STRAWBERRY/BANANA",
-    "description": "Strawberries, banana, jelly with strawberry chunks, house cream, dulce de leche, condensed milk, and whipped cream.",
-    "price": "$12.500",
-    "price2": "$13.500"
-  },
-  {
-    "id": 4,
-    "image": "images/postres/fresas-con-crema.png",
-    "title": "MANGO",
-    "description": "Mango, house cream, dulce de leche, condensed milk, and whipped cream.",
-    "price": "$12.500",
-    "price2": "$13.500"
-  },
-  {
-    "id": 5,
-    "image": "images/postres/fresas-con-crema.png",
-    "title": "BANANA",
-    "description": "Banana, jelly with strawberry chunks, house cream, dulce de leche, condensed milk, and whipped cream.",
-    "price": "$12.500",
-    "price2": "$13.500"
-  },
-  {
-    "id": 6,
-    "image": "images/postres/fresas-con-crema.png",
-    "title": "CHEESE/ICE CREAM",
-    "description": "One or two fruits of your choice, mixed in homemade milk cream, accompanied by whipped cream, condensed milk, dulce de leche, ice cream, and cheese.",
-    "price": "$17.000",
-    "price2": "$18.200"
-  }
-],
-    "title5": "Cakes and Brownies",
-    "tortasybrownie": [
-  {
-    "id": 1,
-    "image": "images/postres/brownie.png",
-    "title": "ICE CREAM BROWNIE",
-    "description": "Brownie, one scoop of ice cream of your choice, chocolate sauce, condensed milk, cherry, and whipped cream.",
-    "price": "$12.000",
-    "price2": "$13.000"
-  },
-  {
-    "id": 2,
-    "image": "images/postres/brownie.png",
-    "title": "TRES LECHES CAKE",
-    "description": "Cake soaked in tres leches, accompanied by a homemade jelly with red berry chunks and a scoop of ice cream.",
-    "price": "$11.500",
-    "price2": "$12.500"
-  },
-  {
-    "id": 3,
-    "image": "images/postres/brownie.png",
-    "title": "PASSION DESSERT",
-    "description": "Passion fruit dessert accompanied by 1 scoop of ice cream (passion fruit or vanilla) and covered in a homemade passion fruit jelly.",
-    "price": "$12.500",
-    "price2": "$13.500"
-  }
-],
-  "title6": "Sweet Lasagnas",
-  "lasaña": [
-    {
-      "id": 1,
-      "image": "images/lasañasyensaladas/lasaña-dulce.png",
-      "title": "FOREST",
-      "description": "Sponge cake layers with cheese, bathed in house creams, a scoop of ice cream, and homemade jelly with red berry chunks.",
-      "price": "$14.500",
-      "price2": "$15.500"
-    },
-    {
-      "id": 2,
-      "image": "images/lasañasyensaladas/lasaña-dulce.png",
-      "title": "CARAMEL",
-      "description": "Sponge cake layers with cheese, bathed in house creams, a scoop of ice cream, dulce de leche, and dulce cortado jelly.",
-      "price": "$15.000",
-      "price2": "$16.000"
-    },
-    {
-      "id": 3,
-      "image": "images/lasañasyensaladas/lasaña-dulce.png",
-      "title": "TROPICAL",
-      "description": "Sponge cake layers with cheese, bathed in house creams, a scoop of ice cream, and a yellow fruit mix.",
-      "price": "$15.000",
-      "price2": "$16.000"
-    }
-  ],
-  "title7": "Fruit Salads",
-  "ensalada": [
-    {
-      "id": 1,
-      "image": "images/lasañasyensaladas/ensalada-frutas.png",
-      "title": "URBAN",
-      "description": "Fresh fruit mix (600g) bathed in house cream, whipped cream, jelly with red berry chunks and sweet pineapple, cheese, condensed milk, cookie, and 2 scoops of ice cream (180g).",
-      "price": "$17.500",
-      "price2": "$18.700"
-    },
-    {
-      "id": 2,
-      "image": "images/lasañasyensaladas/ensalada-frutas.png",
-      "title": "WILD",
-      "description": "Fresh fruit mix (1100g) bathed in house cream, whipped cream, jelly with red berry chunks and sweet pineapple, cheese, condensed milk, cookie, and 4 scoops of ice cream (360g).",
-      "price": "$28.500",
-      "price2": "$30.000"
-    }
-  ],
-  
-  "title8": "SUNDAES AND ICE CREAMS",
-  "copasyhelados": [
-    {
-      "id": 1,
-      "image": "images/copasyhelados/copa-helado.png",
-      "title": "FRUITY ICE CREAM",
-      "description": "2 scoops of ice cream, fresh fruit mix, house cream, jelly with red berry chunks, condensed milk, and wafer roll.",
-      "price": "$12.500",
-      "price2": "$13.500"
-    },
-    {
-      "id": 2,
-      "image": "images/copasyhelados/copa-helado.png",
-      "title": "COCOA TRADITION",
-      "description": "2 scoops of ice cream, chocolate sauce, chocolate bubbles and chips, condensed milk, wafer roll, cherry, and whipped cream.",
-      "price": "$13.500",
-      "price2": "$14.500"
-    },
-    {
-      "id": 3,
-      "image": "images/copasyhelados/copa-helado.png",
-      "title": "CHEESE SUNDAE",
-      "description": "2 scoops of ice cream, cheese, dulce de leche, condensed milk, chocolate sauce, wafer roll, and whipped cream.",
-      "price": "$13.500",
-      "price2": "$14.500"
-    },
-    {
-      "id": 4,
-      "image": "images/copasyhelados/copa-helado.png",
-      "title": "PACIFIC SUNDAE",
-      "description": "Vanilla ice cream, coconut jelly, dulce cortado, cheese, condensed milk, wafer roll, and whipped cream.",
-      "price": "$14.500",
-      "price2": "$15.500"
-    },
-    {
-      "id": 5,
-      "image": "images/copasyhelados/copa-helado.png",
-      "title": "SUNDAE",
-      "description": "Vanilla ice cream with a jelly of your choice: (strawberry, dulce de leche, pineapple, red berries, chocolate, dulce cortado, coconut jelly), wafer roll, condensed milk, and whipped cream.",
-      "price": "$12.500",
-      "price2": "$13.500"
-    },
-    {
-      "id": 6,
-      "image": "images/copasyhelados/copa-helado.png",
-      "title": "PRIMATY SUNDAE",
-      "description": "Rice pudding base, 1 scoop of ice cream, jelly with red berry or pineapple chunks, condensed milk, dulce de leche, crushed peanuts, and wafer roll.",
-      "price": "$12.500",
-      "price2": "$13.500"
-    },
-    {
-      "id": 7,
-      "image": "images/copasyhelados/copa-helado.png",
-      "title": "ORIGIN SUNDAE",
-      "description": "7 scoops of ice cream, brownie, meringue, dulce cortado, red berry jelly, cheese, chocolate sauce and chips, blackberry sauce, condensed milk, dulce de leche, wafer roll, cherry, and whipped cream.",
-      "price": "$31.000",
-      "price2": "$32.500"
-    },
-    {
-      "id": 8,
-      "image": "images/copasyhelados/copa-helado.png",
-      "title": "HAWAII SUNDAE",
-      "description": "2 scoops of ice cream, yellow fruit mix (Mango, sweet pineapple, peaches, passion fruit), condensed milk, wafer roll, and whipped cream.",
-      "price": "$13.000",
-      "price2": "$14.000"
-    },
-    {
-      "id": 9,
-      "image": "images/copasyhelados/copa-helado.png",
-      "title": "LULO DELIGHT",
-      "description": "Vanilla ice cream, bathed in abundant lulo pulp, condensed milk, wafer roll, and whipped cream.",
-      "price": "$13.000",
-      "price2": "$14.000"
-    },
-    {
-      "id": 10,
-      "image": "images/copasyhelados/copa-helado.png",
-      "title": "OREO SUNDAE",
-      "description": "1 scoop of ice cream, Oreo cookies, chocolate sauce, dulce de leche, and whipped cream.",
-      "price": "$12.500",
-      "price2": "$13.500"
-    },
-    {
-      "id": 11,
-      "image": "images/copasyhelados/copa-helado.png",
-      "title": "BANANA SPLIT",
-      "description": "3 scoops of ice cream, double banana, red berry jelly, chocolate sauce, condensed milk, wafer roll, cherry, and whipped cream.",
-      "price": "$15.000",
-      "price2": "$16.000"
-    },
-    {
-      "id": 12,
-      "image": "images/copasyhelados/copa-helado.png",
-      "title": "CHEESY BANANA",
-      "description": "3 scoops of ice cream, double banana, cheese, red berry jelly, sweet pineapple, chocolate sauce, condensed milk, whipped cream, cherry, and wafer roll.",
-      "price": "$18.000",
-      "price2": "$19.000"
-    },
-    {
-      "id": 13,
-      "image": "images/copasyhelados/copa-helado.png",
-      "title": "AFFOGATO",
-      "description": "1 scoop of vanilla ice cream mixed in a delicious espresso, whipped cream, cookie, chocolate sauce, and dulce de leche.",
-      "price": "$11.000",
-      "price2": "$12.000"
-    },
-    {
-      "id": 14,
-      "image": "images/copasyhelados/copa-helado.png",
-      "title": "COFFEE FRAPPÉ",
-      "description": "A perfect blend of ice, coffee, ice cream, and milk, accompanied by a wafer roll and whipped cream.",
-      "price": "$11.500",
-      "price2": "$12.500"
-    }
-  ],
-  "slogan": "Desserts and ice creams",
-  "titulo-pagina": "Menu",
-  "subtitulo": "Swipe to see our products.",
-  "precio1": "For the table",
-  "precio2": "To go",
-  "seccion1": "Products Section",
-  "parrafo-seccion1": "This is an example paragraph to show how internationalization can be used in an application. Here you can add any text you want to translate into English. Remember that it's important to maintain language consistency throughout the application to provide a better user experience. You can include instructions, descriptions, or any other type of content that's relevant to your application. Internationalization makes your app accessible to a wider audience, which can increase its popularity and success. Don't forget to review the translation to ensure it's accurate and appropriate for your application's context!",
-  "seccion2": "Section 2 Name",
-  "parrafo-seccion2": "This is descriptive text where you can explain your product, service, or any relevant information. The design is modern, clean, and adapts to different screen sizes.",
-  "parrafo-seccion2a": "You can add more description about this image; the text should be short but clear and concise.",
-  "seccion3": "Section 3",
-  "seccion3a": "Section 3 Subtitle",
-  "seccion4": "Section 4 Title",
-  "titulo-footer1": "Thank you for visiting our application!",
-  "texto-footer1": "We hope you enjoy exploring all the features..."
+  "cards": {
+    "title1": "Coffee & hot drinks",
+    "image1": "./images/products/Cafe_y_bebidas.png",
+    "card1": [
+      {
+        "title": "Americano",
+        "product1": "",
+        "product2": "",
+        "price": "5.000"
+      },
+      {
+        "title": "Cappuccino",
+        "product1": "",
+        "product2": "",
+        "price": "7.000"
+      },
+      {
+        "title": "Mocha coffee",
+        "ingredient1": "Coffee with chocolate notes",
+        "price": "8.500"
+      },
+      {
+        "title": "Angel's kiss latte",
+        "ingredient1": "Espresso with whiskey cream and milk",
+        "price": "10.000"
+      },
+      {
+        "title": "Irish coffee",
+        "ingredient1": "Whiskey, chantilly cream and espresso",
+        "price": "10.000"
+      },
+      {
+        "title": "Infusion",
+        "product1": "Ginger: with tree tomato, orange and stevia leaves.",
+        "product2": "Red fruits: blackberry, strawberry, hibiscus flower, blueberries and stevia leaves.",
+        "price": "8.500"
+      }
+    ],
+    "title2": "Cold drinks",
+    "image2": "./images/products/Bebidas_frias.png",
+    "card2": [
+      {
+        "title": "Iced latte",
+        "ingredient1": "Espresso shot, ice and milk",
+        "price": "10.000"
+      },
+      {
+        "title": "Affogato",
+        "ingredient1": "Perfect combination between creamy ice cream and espresso",
+        "price": "12.000"
+      },
+      {
+        "title": "Orange Coffee",
+        "ingredient1": "Orange juice, more ice and espresso shot",
+        "price": "10.000"
+      },
+      {
+        "title": "Coffee lemonade",
+        "product1": "Double espresso with ice and lemon",
+        "product2": "You can also order it with tequila liqueur",
+        "price": "18.000"
+      },
+      {
+        "title": "Matcha tea",
+        "ingredient1": "With coconut milk",
+        "price": "10.000"
+      },
+      {
+        "title": "Flavored sodas",
+        "ingredient1": "Passion fruit, lychee, watermelon, strawberry",
+        "price": "18.000"
+      },
+      {
+        "title": "Cold Milo",
+        "price": "9.000"
+      },
+      {
+        "title": "What if you let me?",
+        "ingredient1": "Espresso, lemon and rum",
+        "price": "16.000"
+      }
+    ],
+    "title3": "Afternoon snack",
+    "image3": "./images/products/Tardeo1.png",
+    "card3": [
+      {
+        "title": "House bites",
+        "ingredient1": "3 Crispy and tasty empanadas",
+        "ingredient2": "2 Delicious aborrajados",
+        "ingredient3": "1 Crispy marranita",
+        "ingredient4": "1 Fresh and tasty yuca cake",
+        "price": "18.000"
+      }
+    ],
+    "title4": "",
+    "image4": "./images/products/Tardeo2.png",
+    "card4": [
+      {
+        "title": "Waffle bread",
+        "ingredient1": "4 Units, with cheese and arequipe",
+        "price": "15.000"
+      }
+    ],
+    "title5": "",
+    "image5": "./images/products/Tardeo3.png",
+    "card5": [
+      {
+        "title": "Migao",
+        "ingredient1": "1 Pandewaffle, 1 Buñuelo, 1 Toast, 2 Cheese sticks, Ducales, Saltín, Cheese and Chocolate.",
+        "price": "16.000"
+      }
+    ],
+    "title6": "Desserts and cakes",
+    "image6": "./images/products/Torta1.png",
+    "card6": [
+      {
+        "title": "Chocolate cake",
+        "ingredient1": "Sweetened with stevia without bitterness, covered with chocolate cream and 70% chocolate chips.",
+        "price": "13.000"
+      },
+      {
+        "title": "German cake",
+        "ingredient1": "Vanilla cake, filled with greek yogurt and arequipe, covered with greek yogurt cream and almonds.",
+        "price": "13.000"
+      },
+      {
+        "title": "Carrot cake",
+        "ingredient1": "Artisanal with nuts, low in sugar.",
+        "price": "13.000"
+      }
+    ],
+    "title7": "Desserts and cakes",
+    "image7": "./images/products/Torta2.png",
+    "card7": [
+      {
+        "title": "Red fruits cheesecake",
+        "ingredient1": "Traditional cheesecake with red fruits: blackberry, strawberries and agraz.",
+        "price": "15.000"
+      },
+      {
+        "title": "Alfajores",
+        "ingredient1": "Filled with arequipe, sugar-free and sweetened with stevia without bitterness.",
+        "price": "7.000"
+      }
+    ],
+    "title8": "",
+    "image8": "./images/products/Torta3.png",
+    "card8": [
+      {
+        "title": "Filled cookies",
+        "ingredient1": "Sugar-free sweetened with stevia without bitterness. Ask about our flavors.",
+        "price": "7.000"
+      },
+      {
+        "title": "Almond croissant",
+        "price": "11.500"
+      },
+      {
+        "title": "Cinnamon rolls",
+        "price": "7.000"
+      },
+      {
+        "title": "Brownies",
+        "price": "7.000"
+      },
+      {
+        "title": "Ask about our weekly dessert",
+        "price": "13.000"
+      }
+    ],
+    "title9": "Hamburger",
+    "image9": "./images/products/Hamburguesa.png",
+    "card9": [
+      {
+        "title": "Homemade",
+        "ingredient1": "Delicious and artisanal, 130 g of beef Fresh brioche bread, melted cheddar cheese, fresh tomato and lettuce, crispy bacon, honey for a sweet touch, Crispy yuca croquettes, House sauce for a unique flavor. *Available from 4:00 p.m.",
+        "price": "25.000"
+      }
+    ],
+    "title10": "Cocktails & Wines",
+    "image10": "./images/products/Cocteles1.png",
+    "card10": [
+      {
+        "title": "Martina's heart cocktail",
+        "ingredient1": "Artisanal cocktail. Available flavors:",
+        "ingredient2": "passion fruit, lulo and watermelon.",
+        "price": "13.000"
+      }
+    ],
+    "title11": "",
+    "image11": "./images/products/Cocteles2.png",
+    "card11": [
+      {
+        "title": "Glass of artisanal wine",
+        "ingredient1": "Martina's heart.",
+        "ingredient2": "Ask about available options.",
+        "price": "10.000"
+      }
+    ]
   }
 }

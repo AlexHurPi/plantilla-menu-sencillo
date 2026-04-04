@@ -3,6 +3,8 @@ import './inicio.css';
 import Header from '../components/header-components/Header';
 import { useTranslation } from 'react-i18next';
 import ImageCard from '../components/image-card/ImageCard';
+import { Map } from '../components/map-components/Map';
+import { WhatsappButton } from '../components/whatsapp-components/whatsappButton';
 
 const Inicio = () => {
   const { t } = useTranslation();
@@ -20,6 +22,8 @@ const Inicio = () => {
         <ImageCard dataKey="cards.card9" titleKey="cards.title9" image="cards.image9" alt="image9"/>
         <ImageCard dataKey="cards.card10" titleKey="cards.title10" image="cards.image10" alt="image10"/>
         <ImageCard dataKey="cards.card11" image="cards.image11" alt="image11"/>
+        <Map />
+        <WhatsappButton />
     </div>
   )
 }
