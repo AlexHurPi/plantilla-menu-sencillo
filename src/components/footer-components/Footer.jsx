@@ -16,28 +16,21 @@ export default function Footer({background, dataKey}) {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-            <div>
+            <div className="d-flex flex-column gap-1">
               {info.empresa && <strong>{info.empresa}</strong>}
-              <br />
               {info.slogan && <small className="opacity-75">{info.slogan}</small>}
-              <br />
               {info.razonsocial && <small className="opacity-75">{info.razonsocial}</small>}
-              <br />
               {info.nit && <small className="opacity-75">{info.nit}</small>}
             </div>
           </div>
 
           <div className="col-md-6 text-center text-md-end">
-            <div>
-              <strong>{info.dondeestamos}</strong>
-              <br />
-              <small>{info.ubicacion}</small>
-              <br />
-              <small>{info.direccion}</small>
-              <br />
-              <small>📧 {info.correo}</small>
-              <br />
-              <small>📞 {info.telefono}</small>
+            <div className="d-flex flex-column gap-1">
+              {info.dondeestamos && <strong>{info.dondeestamos}</strong>}             
+              {info.ubicacion && <small>{info.ubicacion}</small>}             
+              {info.direccion && <small>{info.direccion}</small>}            
+              {info.correo && <small>📧 {info.correo}</small>}             
+              {info.telefono && <small>📞 {info.telefono}</small>}
             </div>               
           </div>
         </div>

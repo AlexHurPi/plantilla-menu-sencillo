@@ -29,10 +29,14 @@ const ImageCard = ({ dataKey, titleKey, image, alt }) => {
                 <h4>${product.price}</h4>
               </div>
               {/*El siguiente codigo se puede reemplazar con el CODIGO OPTIMIZADO que se comento al final, pero se deja asi para que sea mas facil de entender mantener*/}
-              {product.product1 && <p>⏺︎ {product.product1}</p>}
-              {product.product2 && <p>⏺︎ {product.product2}</p>}
-              {product.product3 && <p>⏺︎ {product.product3}</p>}
-              {product.product4 && <p>⏺︎ {product.product4}</p>}
+              {product.product1 || product.product2 || product.product3 || product.product4 ? (
+                  <ul>
+                    {product.product1 && <li>{product.product1}</li>}
+                    {product.product2 && <li>{product.product2}</li>}
+                    {product.product3 && <li>{product.product3}</li>}
+                    {product.product4 && <li>{product.product4}</li>}
+                  </ul>
+                ) : null}           
               {product.ingredient1 && <p>{product.ingredient1}</p>} 
               {product.ingredient2 && <p>{product.ingredient2}</p>}   
               {product.ingredient3 && <p>{product.ingredient3}</p>} 
