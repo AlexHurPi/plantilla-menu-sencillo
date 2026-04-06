@@ -3,7 +3,7 @@ import './redes-styles.css';
 
 const Redes = () => {
   return (
-   <div class="social-icons">
+   <div className="social-icons">
   
   <a href="https://facebook.com/tuusuario" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">

@@ -1,6 +1,6 @@
 .whatsapp-container {   
     position: fixed;
-    bottom: 320px;
+    bottom: 60px;
     right: calc(50vw - 320px);
     z-index: 1000;    
 }
@@ -21,7 +21,7 @@
 
 @media (max-width: 425px) {
     .whatsapp-container {
-        bottom: 350px;        
+        bottom: 60px;        
         right: 2px;
     }    
 }
