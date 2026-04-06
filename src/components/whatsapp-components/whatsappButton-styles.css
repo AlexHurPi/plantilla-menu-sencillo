@@ -1,6 +1,6 @@
 .whatsapp-container {   
     position: fixed;
-    bottom: 380px;
+    bottom: 320px;
     right: calc(50vw - 320px);
     z-index: 1000;    
 }
