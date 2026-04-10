@@ -12,8 +12,8 @@
   /* Colores */
   --title: #2A3D5B;
   --subtitle: #d1cfcf;
-  --primary: #40A5D4;
-  --secondary: #bdf3f6;
+  --primary: #40A5D4;/** para el header y footer*/
+  --secondary: #bdf3f6;/** para el body*/
   --vivid: #E414D6;
 
   /* Tipografías */
@@ -31,62 +31,37 @@
   --text-3xl: 2.5rem;
   --text-4xl: 3rem;
 }
-
-html {
-  box-sizing: border-box;
-  /*font-size: 16px;*/
-  scroll-behavior: smooth;
-}
-
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
-
-body {
-  margin: 0;
-  min-height: 100vh;
-  /*line-height: 1.5;*/
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-
-img,
-picture,
-video,
-canvas,
-svg {
+img, picture, video,canvas, svg {
   display: block;
   max-width: 100%;
 }
-
-button,
-input,
-textarea,
-select {
+button, input, textarea, select {
   font: inherit;
 }
-
 a {
   color: inherit;
   text-decoration: none;
 }
-
-ul,
-ol {
+ul, ol {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   overflow-wrap: break-word;
 }
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+  background-color: var(--primary);
+}
+body {
+  overflow-x: hidden;
+}
+
