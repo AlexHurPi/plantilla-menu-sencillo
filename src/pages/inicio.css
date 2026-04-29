@@ -1,8 +1,10 @@
-.mainContainer{
+.inicio-mainContainer{
+    display:flex;
+    flex-direction: column;
     width: 100%;
     /*max-width: 500px;    */
-    margin: 0 auto;   
+      
     justify-content: center;
     align-items: center;   
-    background-color: var(--secondary); 
+    /*background-color: var(--secondary); */
 }

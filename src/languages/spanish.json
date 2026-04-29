@@ -1,132 +1,118 @@
 {
   "header": {
-    "title": "El nombre de tu empresa",
-    "subtitle": "Tu eslogan",
+    "title": "Cafe de Colombia",
+    "subtitle": "De Colombia para el mundo.",
     "image": "./images/products/logocafe.png"
   },
   "footer": {
     "infofooter": [
       {
-          "empresa": "El nombre de tu empresa.",
-          "slogan": "Tu eslogan.",
-          "razonsocial": "Razón social: El nombre de tu empresa S.A.S.",
+          "empresa": "Cafe de Colombia",
+          "slogan": "De Colombia para el mundo..",
+          "razonsocial": "Razón social: Cafe de Colombia S.A.S.",
           "nit": "NIT: 123456789-0",
           "dondeestamos": "¿Dónde estamos?",
-          "ubicacion": "Ciudad, Departamento,País.",
-          "direccion": "Dirección: Calle Falsa 123, Ciudad, País.",
-          "correo": "usuario@empresa.com",
+          "ubicacion": "Cali, Valle del cauca, Colombia.",
+          "direccion": "Dirección: Calle 123 # 652, Cali, Colombia.",
+          "correo": "cafe@cafecolombia.com",
           "telefono": "Teléfono: +57 123 456 7890",
           "redessociales": "Síguenos en nuestras redes sociales:",
           "facebook": "enlace a Facebook",
           "twitter": "enlace a Twitter",
           "instagram": "enlace a Instagram",
-          "final": "© 2026 EMPRESA S.A.S. Todos los derechos reservados."
+          "youtube": "enlace a YouTube",
+          "tiktok": "enlace a TikTok",
+          "final": "Cafe de Colombia S.A.S. Todos los derechos reservados."
       }
   ]
   },
   "cards": {
     "title1": "Cafe & bebidas calientes",
-    "image1": "./images/products/Cafe_y_bebidas.png",
+    "image1": "./images/products/capuchino.png",
     "card1": [
       {
         "title": "Americano",
+        "ingredient1": "Café expreso y agua caliente",
         "product1": "",
         "product2": "",
         "price": "5.000"
       },
       {
         "title": "Capuchino",
+        "ingredient1": "café expreso, leche vaporizada y espuma de leche",
         "product1": "",
         "product2": "",
         "price": "7.000"
       },
       {
         "title": "Cafe moca",
-        "ingredient1": "Cafe con notas achocolatas",        
-        "price": "8.500"
-      },
-      {
-        "title": "Beso de angel late",
-        "ingredient1": "Expreso con crema de whisky y leche",        
-        "price": "10.000"
-      },
-      {
-        "title": "Cafe Irlandés",
-        "ingredient1": "Whisky, crema chantilly y expresso",
-        "price": "10.000"
-      },
-      {
-        "title": "Infusion",
-        "product1": "Jengibre: con tomate de árbol , naranja y hojas de stevia.",
-        "product2": "Frutos rojos: mora , fresa , flor de jamaica, arándanos y hojas de stevia.",
+        "ingredient1": "café expreso, leche, chocolate y espuma de leche",    
+        "product1": "",
+        "product2": "",
         "price": "8.500"
       }
+     
+     
     ],
     
     "title2": "Bebidas frías",
-    "image2": "./images/products/Bebidas_frias.png",
+    "image2": "./images/products/granizados.png",
     "card2": [
       {
-        "title": "Iced latte",
-        "ingredient1": "Shot de espresso, hielo y leche",        
+        "title": "Granizado de café",
+        "ingredient1": "Refrescante combinación de café intenso, hielo triturado y un toque de dulzura.",        
         "price": "10.000"
       },
       {
-        "title": "Affogato",
-        "ingredient1": "Combinación perfecta entre un cremoso helado y un espresso",
+        "title": "Granizado de mango",
+        "ingredient1": "Refrescante combinación de mango tropical, hielo triturado y un toque de dulzura.",
         "price": "12.000"
       },
       {
-        "title": "Orange Coffee",
-        "ingredient1": "Jugo de naranja, más hielo y shot de espresso",
+        "title": "Granizado de fresa",
+        "ingredient1": "Refrescante combinación de fresa fresca, hielo triturado y un toque de dulzura.",
         "price": "10.000"
-      },
-      {
-        "title": "Limonada de café",
-        "product1": "Espresso doble con hielo y limón",
-        "product2": "También lo puedes pedir con licor de tequila",
-        "price": "18.000"
-      },
-      {
-        "title": "Té matcha",
-        "ingredient1": "Con leche de coco",
-        "price": "10.000"
-      },
-      {
-        "title": "Sodas saborizadas",
-        "ingredient1": "Maracuyá, lychee, sandía, fresa",
-        "price": "18.000"
-      },
-      {
-        "title": "Milo frío",        
-        "price": "9.000"
-      },
-      {
-        "title": "¿Y si me dejas qué?",
-        "ingredient1": "Espresso, limón y ron",        
-        "price": "16.000"
-      }
+      }      
     ],
-    "title3": "Tardeo",
-    "image3": "./images/products/Tardeo1.png",
+    "title3": "Licores y cervezas",
+    "image3": "./images/products/licores.png",
     "card3": [
       {
-        "title": "Bocaditos de la casa",
-        "ingredient1": "3 Empanadas crujientes y sabrosas",
-        "ingredient2": "2 Aborrajados deliciosos",
-        "ingredient3": "1 Marranita crujiente",
-        "ingredient4": "1 Pastel de yuca fresco y sabroso",        
-        "price": "18.000"
+        "title": "Whiskey",
+        "product1": "Buchanass 12 años",
+        "product2": "Buchanass 18 años",
+        "product3": "Chivas Regal 12 años",
+        "price": "100.000 - 150.000 - 200.000"        
+      },
+      {
+        "title": "Cerveza",
+        "ingredient1": "Pregunta por nuestras opciones disponibles.",
+        "price": "5.000"
+      },
+      {
+        "title": "Aguardiente",
+        "ingredient1": "Pregunta por nuestras opciones disponibles.",
+        "price": "10.000"
       }     
     ],
-    "title4": "",
-    "image4": "./images/products/Tardeo2.png",
+    "title4": "Tortas",
+    "image4": "./images/products/torta-zanahoria.png",
     "card4": [
       {
-        "title": "Pan de waffle",
-        "ingredient1": "4 Unidades, con queso y arequipe",           
+        "title": "Totrta de zanahoria",
+        "ingredient1": "Artesanal con nueces, baja en azúcar.",           
         "price": "15.000"
-      }     
+      },    
+      {
+        "title": "Torta de chocolate",
+        "ingredient1": "Endulzada con Stevia sin amargo, cubierta de crema de chocolate y chips de chocolate al 70%.",           
+        "price": "15.000"
+      },     
+      {
+        "title": "Torta Alemana",
+        "ingredient1": "Torta de vainilla, con relleno de yogur griego y arequipe, cubierta de crema de yogur griego y almendras.",           
+        "price": "15.000"
+      }
     ],
     "title5": "",
     "image5": "./images/products/Tardeo3.png",

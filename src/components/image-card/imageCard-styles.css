@@ -1,17 +1,17 @@
 
-    .mainContainer{
+    .imageCard-mainContainer{
        display: flex;
        flex-direction: column; 
        justify-content: center;
        align-items: center;
        width: 100%;
-       max-width: 500px;
+       max-width: 600px;
     }
     .seccion{                     
         display: flex;  
         justify-content: center;  
         align-items: center;            
-        background-color: #2A3D5B;            
+        background-color: var(--primary);            
         width: 95%; 
         height: 2.5em; 
         margin-top: 1em; 
@@ -36,12 +36,14 @@
         display: flex;                   
         padding: 0.5em;
         background-color: white;            
-        height: 15em;                                        
+        height: 15em;  
+                                         
     }
     .contImagenProducto img{              
         height: 100%;/* Ocupa el 60% de la altura de la celda */
         margin: auto; /* Centra la imagen vertical y horizontalmente */
         object-fit: cover; /* Ajusta la imagen para cubrir la celda */ 
+         border-radius: 10%;    
     }        
     .contSubtitulos { 
         background-color: #2A3D5B;           
@@ -56,27 +58,28 @@
         justify-content: space-between;                       
     }
     .seccion h3{
-        font-family: jost-bold;
+        font-family: var(--font-bold);
         font-size: var(--text-lg);
         color: var(--vivid); 
     }
-    .contSubtitulos h4{           
+    .contSubtitulos h4{   
+        font-family: var(--font-base);        
         font-size: var(--text-base); 
-        color: var(--subtitle);   
-        line-height: 0.8;            
+        color: var(--title);   
+        line-height: 1.2;            
     }        
     .contSubtitulos p{
-        font-family: jost;
+        font-family: var(--font-base);
         margin-left: 0.5em;           
         font-size: var(--text-xs); 
-        color: var(--secondary);   
+        color: var(--text);   
         line-height: 1;
         margin-bottom: 0.3rem; /*Espacio mínimo abajo*/              
     }
     .contSubtitulos li{
-        font-family: jost;                  
+        font-family: var(--font-base);
         font-size: var(--text-xs); 
-        color: var(--secondary);   
+        color: var(--text);   
         line-height: 1;
         margin-bottom: 0.3rem; /*Espacio mínimo abajo*/  
         position: relative;

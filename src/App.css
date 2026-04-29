@@ -10,11 +10,14 @@
 
 :root {
   /* Colores */
-  --title: #2A3D5B;
-  --subtitle: #d1cfcf;
-  --primary: #40A5D4;/** para el header y footer*/
-  --secondary: #bdf3f6;/** para el body*/
-  --vivid: #E414D6;
+  --title: #ffffff;
+  --subtitle: #acaeae;
+  --text:#bdf3f6;
+  --primary: #2A3D5B;/** para el header, footer y las tarjetas*/
+  --secondary: #40A5D4;/** para el body*/  
+  --vivid: #E414D6; /** para textos que resalten o elementos destacados */
+  --light: #f0f0f0; /** para fondos claros y elementos secundarios */
+  --dark: #1a1a1a; /** para textos oscuros y fondos contrastantes */
 
   /* Tipografías */
   --font-base: 'jost', sans-serif;
@@ -59,9 +62,11 @@ html, body, #root {
   padding: 0;
   min-height: 100%;
   width: 100%;
-  background-color: var(--primary);
+  background-color: var(--secondary);
+  flex: 1;  
+  
 }
-body {
+body{
   overflow-x: hidden;
 }
 

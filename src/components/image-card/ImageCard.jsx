@@ -9,7 +9,7 @@ const ImageCard = ({ dataKey, titleKey, image, alt }) => {
   const products = Array.isArray(rawProducts) ? rawProducts : [];
 
   return (
-    <div className='mainContainer'>
+    <div className='imageCard-mainContainer'>
       {titleKey && (
         <div className="seccion">
           <h3>{t(titleKey)}</h3>

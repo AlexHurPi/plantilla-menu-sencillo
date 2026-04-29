@@ -1,41 +1,41 @@
 /* header-styles.css */
-.custom-header {
+.header {  
+  display: flex;  
   width: 100%;
   position: sticky;
   top: 0;
   z-index: 1000;
-  backdrop-filter: blur(10px);  
-  padding: 0.5rem;
+  backdrop-filter: blur(10px);   
+}
+.header-mainContainer {  
   display: flex;  
-}
-.main-container {
-  display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  width: 100%;      
-  margin: 0 auto;    
+  justify-content: center; 
+  width: 100%;
+  margin: 0 auto;
+  gap: 1rem;
+  flex-wrap: nowrap;/* Evita que los elementos se envuelvan en pantallas pequeñas */
+  padding: 0.5rem;
 }
-.text-container {
+.header-textContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
-.title {
+.header-title {
   font-size: 1.5rem;
   font-weight: bold;
-  color: white;
 }
-.subtitle {
+.header-subtitle {
   font-size: 1.25rem;
-  color: #d1cfcf;
-} 
-@media (max-width: 425px) {
-  .custom-header {      
-      padding-top: 1.5rem;        
-      } 
-  .main-container {      
-      justify-content: start;         
-      }
+}
+
+@media (max-width: 600px) {
+  .header-mainContainer {
+    padding-top: 1rem;
+    justify-content: start; 
+  }
 }
